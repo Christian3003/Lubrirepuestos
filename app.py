@@ -6,6 +6,9 @@ st.title("📦 Inventario - Lubrirepuestos")
 
 # Subida de archivo
 archivo = st.file_uploader("📤 Sube tu archivo Excel", type=["xlsx"])
+streamlit
+pandas
+openpyxl
 
 if archivo:
     df = pd.read_excel(archivo, sheet_name=None)
